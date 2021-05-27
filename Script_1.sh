@@ -1,3 +1,4 @@
+cd ~
 echo "Installing and updating programs..."
 apt update
 apt install git
