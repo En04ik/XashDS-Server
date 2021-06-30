@@ -1,3 +1,10 @@
+#!/bin/bash
+
+if [ ! -d ~/storage/shared/xash/valve ]; then
+	echo "Put valve folder inside /storage/emulated/0/xash first!"
+	exit 1
+fi
+
 cd ~
 echo "Installing and updating programs..."
 apt update
