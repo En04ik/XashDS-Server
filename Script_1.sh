@@ -6,10 +6,12 @@ if [ ! -d ~/storage/shared/xash/valve ]; then
 fi
 
 cd ~
+chmod +x Script_2.sh
+chmod +x Start_Server.sh
 echo "Installing and updating programs..."
 apt update
 apt install git
-apt install cmake
+apt install cmake clang
 termux-setup-storage
 echo "Cloning Xash sources into your storage..."
 mkdir -p ~/xash
