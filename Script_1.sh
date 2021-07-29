@@ -10,8 +10,7 @@ chmod +x Script_2.sh
 chmod +x Start_Server.sh
 echo "Installing and updating programs..."
 apt update
-apt install git
-apt install cmake clang
+apt install git cmake clang --build-esseintial
 termux-setup-storage
 echo "Cloning Xash sources into your storage..."
 mkdir -p ~/xash
