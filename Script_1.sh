@@ -14,7 +14,7 @@ termux-setup-storage
 echo "Cloning Xash sources into your storage..."
 cd ~/
 mkdir -p xash
-cp -r ~/storage/emulated/0/xash/valve ~/xash/
+cp -r /storage/emulated/0/xash/valve ~/xash/
 git clone https://github.com/FWGS/xash3d --depth=1
 cd xash3d/engine
 CFLAGS="-U__ANDROID__" make -f ../contrib/mittorn/Makefile.linux XASH_DEDICATED=1 64BIT=1
