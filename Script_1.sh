@@ -1,6 +1,6 @@
 #!/bin/bash
 
-if [ ! -d ~/storage/shared/xash/valve ]; then
+if [ ! -d /storage/emulated/0/xash/valve ]; then
 	echo "Put valve folder inside /storage/emulated/0/xash first!"
 	exit 1
 fi
