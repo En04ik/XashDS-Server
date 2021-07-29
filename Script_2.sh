@@ -1,5 +1,5 @@
 echo "Cloning Hlsdk into your storage..."
-cd ~
+cd ~/
 git clone https://github.com/FWGS/hlsdk-xash3d --depth=1
 cd hlsdk-xash3d
 echo "Building Hlsdk..."
