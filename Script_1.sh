@@ -9,7 +9,7 @@ chmod +x Script_2.sh
 chmod +x Start_Server.sh
 echo "Installing and updating programs..."
 apt update
-apt install git make cmake clang build-esseintial
+apt install git make cmake clang build-essential
 termux-setup-storage
 echo "Cloning Xash sources into your storage..."
 cd ~/
